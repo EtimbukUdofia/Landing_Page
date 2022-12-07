@@ -4,64 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
 </head>
 <body>
     <header>
-        <div>Header Logo</div>
-        <div class="header-right">
-            <div>header link one</div>
-            <div>header link two</div>
-            <div>header link three</div>
+        <div class="header-container container">
+            <div class="header-left">
+                Header Logo
+            </div>
+            <div class="header-right">
+                <div>Header link one</div>
+                <div>Header link two</div>
+                <div>Header link three</div>
+            </div>
         </div>
     </header>
 
-    <div class="body-one">
-        <div class="body-one-left">
-            <div>This website is awesome</div>
-            <div>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-            <button value="sign-up" type="submit" class="button">sign-up</button>
-        </div>
-        <div>this is a placeholder for an image</div>
-    </div>
-
-    <div class="body-two">
-        <div>Some random information</div>
+    <section class="section-one">
         <div class="container">
-            <div class="box-one">
-                <div class="one"></div>
-                <div class="subtext">this is some subtext under an illustration or image</div>
+            <div class="one-left">
+                <span class="awesome">This website is awesome</span>
+                <span class="smaller-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</span>
+                <button class="submit" type="submit">Sign up</button>
             </div>
-            <div class="box-two">
-                <div class="two"></div>
-                <div class="subtext">this is some subtext under an illustration or image</div>
-            </div>
-            <div class="box-three">
-                <div class="three"></div>
-                <div class="subtext">this is some subtext under an illustration or image</div>
-            </div>
-            <div class="box-four">
-                <div class="four"></div>
-                <div class="subtext">this is some subtext under an illustration or image</div>
+            <div class="one-right">
+                this a placeholder for an image
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="body-three">
-        <div class="quote"> This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-        <div class="author">-Thor, God of Thunder</div>
-    </div>
-
-    <div class="body-four">
-        <div class="body-four-left">
-            <span>Call to action! It's time!</span>
-            Sign up for our product by clicking that button right over there!
+    <section class="section-two">
+        <div class="container container-two">
+            <div class="information">
+                Some random information
+            </div>
+            <div class="flex-container">
+                <div class="flex-one box">
+                    <div class="flex"></div>
+                    <div class="flex-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="flex-two box">
+                    <div class="flex"></div>
+                    <div class="flex-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="flex-three box">
+                    <div class="flex"></div>
+                    <div class="flex-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="flex-four box">
+                    <div class="flex"></div>
+                    <div class="flex-text">this is some subtext under an illustration or image</div>
+                </div>
+            </div>
         </div>
-        <div class="body-four-right">
-            <button value="submit" type="button" class="button">Sign up</button>
-        </div>
-    </div>
+    </section>
 
-    <footer>Copyright Ⓒ The Odin Project 2021</footer>
+    <section class="section-three">
+        <div class="container quote">
+            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+            <span class="author">-Thor, God of Thunder</span>
+        </div>
+    </section>
+
+    <section class="section-four">
+        <div class="container four">
+            <div class="four-left">
+                <span class="top">Call to action! It's time!</span>
+                <span class="bottom"> Sign up for our product by clicking that button right over there!</span>
+            </div>
+            <div class="four-right">
+                <button class="submit-two" type="submit">Sign up</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>Copyright Ⓒ The Odin Project 2022</footer>
 </body>
 </html>
